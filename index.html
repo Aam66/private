@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is an awesome website.">
+    <meta name="author" content="Aamir">
+    <meta name="keywords" content="HTLM, Tutorial, Giraffe Academy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- meta tags are used in the head of the file and the head tags are used to
+    find information about the file like metadata which is data for data
+    the "description" meta tag is used by search engine to find the website and pager ranking and stuff like that
+    the "kwywords" meta tag can be stored as a comma separated list
+    the "viewport" meta tag decides how your website is displayed on different devices-->
+
+    <title> Aamir's Website </title>
+
+</head>
+<body>
+    <p>This is a <i><b>paragraph</b></i>.</p>
+    <br/>
+    <h1>this is a paragraph lol</h1>
+    <hr/> <hr/>
+    <p> this is another paragraph </p>
+    <p> <big>hello</big> <small>world</small> </p>
+    <p>H<sub>2</sub>O </p>
+    <p>10<sup>2</sup></p>
+
+    <!-- This is how you write  omments. -->
+
+    <p style="color: red; background-color: greenyellow;">trying out colored text</p>
+    <header>
+        <nav>
+            <!--navigation lists and links go here. -->
+        </nav>
+
+    </header>
+    <main>
+        <article>
+            <section>
+                <h1></h1>
+                <!-- use h to act as heading for each section. -->
+
+            </section>
+            <section>
+                <aside>
+                    <!-- this tag is used to display content
+                    which is not directly related to your webpage
+                    like advertisement or something like that -->
+
+                </aside>
+            </section>
+            <!-- section is for each section of an article. -->
+
+        </article>
+
+        
+        <a href="https://www.google.com">Google homepage</a>
+        <!-- the href is used for links to other pages-->
+
+        <a href="https://www.google.com" target="_blank">Google homepage revised</a>
+        <!-- the target option is used to create a new tab 
+        for the given link else it will proceed in the same
+        tab -->
+        
+
+        <!-- if you want to add a link of another html file
+        instead of an internet link then write
+        href="name of the html file.html" if in the same folder else
+        href="the locstion of that file.html" -->
+
+        <!-- similarly we can use it to use as links for images
+        and stuff but we have to use the appropriate suffix
+        like jpg or pnj or whatever
+        NOTE: IT IS FOR LINK TO AN IMAGE, NOT THE IMAGE ITSELF -->
+
+
+
+        <img src="https://cdn.wallpapersafari.com/78/3/G5jsyL.png" alt="Majin vegeta" />
+        <!-- the src stand for source of the image -->
+        <!-- the above tag is used for adding images from the internet
+        incase the image is removed from the internet then the text written
+        in the alt is displayed. -->
+        <!-- similarly for an image from the desktop write the location 
+        of the image instead -->
+
+        <img width="200" height="200" src="https://cdn.wallpapersafari.com/78/3/G5jsyL.png" alt="Majin vegeta" />
+        <!-- the width and height attribute is used to resize
+        make sure you check the aspect ratio of the image before you
+        resize it else it will looked squashed or stretched or something like that
+        Aspect ratio is the (?)x(?) given at the bottom of each image
+        NOTE: YOU CAN WRITE ONLY ONE OF THE TWO DIMESIONS AND HTML
+        WILL DO THE OTHER ONE FOR YOU ACCORDING TO THE ASPECT RATIO-->
+
+
+
+        <a href="https://preview.redd.it/jvh8inh6dbz51.png?width=640&crop=smart&auto=webp&s=c9ea90d0838285ab87bade7eb9e22d815c30522a">
+            <img width="150" src="https://preview.redd.it/tqeapsx9mtv41.png?auto=webp&s=6c979fa05f9df003939f1794561f5898b0d4c1b2" alt="Vegeta base" />
+        </a>
+        <!-- for making an image such that when clicked it 
+        opens another link: first code a href for the final link 
+        and inside the href tag code the starter image img tag-->
+
+        <video src="C:\Users\aamir\Downloads\Sigma Male Majin Vegeta.mp4" poster="C:\Users\aamir\Downloads\Aamir 2x2 inch photo.jpg" loop controls width="400"></video>
+        <!-- the above tag doesnt plays video from internet, for video
+        from desktop type the location of the video,
+        the "controls" attribute is very important because 
+        without it the video will appear as a image
+        the "poster" attribute adds the thumbnail to the video
+        the "loop" attribute will put the video on loop
+        if a "autoplay" attribute was used it would autoplay-->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6lGuDTRilKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- for inserting a video from youtube go to the video
+        click on share and click on embed then a tag will be displayed
+        copy paste that tag-->
+
+
+        <ul>
+            <li>Sayed</li>
+            <li><a href="https://www.youtube.com/embed/6lGuDTRilKQ"> Mohammed </a></li>
+            <li>Aamir</li>
+            <li>Tyagdal</li>
+        </ul>
+        <!-- the ul tag is for unordered list
+        the list items can be used as links as well
+        the same goes for the ordered lists-->
+
+        <ol type="1">
+            <li>Sayed</li>
+            <li>Mohammed
+                <ul type="square">
+                    <li>Sigma</li>
+                </ul>
+            </li>
+            <li>Aamir</li>
+            <li>Tyagdal</li>
+        </ol>
+        <!-- the ol tags= is for ordered list
+        you can create a list inside a list
+        using the "type" attribute you can select
+        the type of list -->
+
+        <dl>
+            <dt>Apples</dt>
+            <dd>- is a fruit</dd>
+            <dt>Potota</dt>
+            <dd>- is a vegetable</dd>
+        </dl>
+        <!-- the dl tag is for descriptive list
+        the dt is for description term
+        the dd is for description data-->
+
+
+
+
+
+        <table>
+            <thead>
+                <caption><h3>List of numbers</h3></caption>
+                <tr>
+                    <th>num1</th>
+                    <th>num2</th>
+                    <th>num3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="1">ONE</td>
+                    <td>TWO</td>
+                    <td>THREE</td>
+                </tr>
+                <tr>
+                    <td>FOUR</td>
+                    <td>FIVE</td>
+                    <td>SIX</td>
+                </tr>
+                <tr>
+                    <td>SEVEN</td>
+                    <td>EIGHT</td>
+                    <td>NINE</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- the table tag is for creating a table
+        the thead and tbody tags' presence doesnt make a difference
+        their only purpose is to make the code more readable and understandable
+        the caption tag is for the title of the table
+        the tr tag creates a row in the table
+        the td tag creates a column in the row and takes in data
+            the "colspan" attribute decides the number of colum space the entry should occupy
+        the th tag is a replacement for the td tag to be put in the first row-->
+
+
+
+        <br>
+        <br>
+        <br>
+        <!-- there are two types of tags/elements in html: block & inline
+        the block elements take up that entire space of the webage
+        the inline elements take only necessay amount of space in the webpage
+        two inline elements can exist side by side but two block elements cant irrespective of available space-->
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <hr>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <!-- href tag is an example of inline tag
+        while p is an example of block tag-->
+        <hr>
+        <span>span1</span>
+        <span>span2</span>
+        <br>
+        <div>div1</div>
+        <div>div2</div>
+        <hr>
+        <hr>
+        <!-- span and div are container tags which can be used to hold text and tags
+        span is a inline element while div is a block element
+        span can be used for styling using css
+        div is however the more commonly used tag-->    
+        
+        
+
+        <input type="text" value="Enter your text" />
+        <input type="password" />
+        <input type="date" />
+        <input type="range" />
+        <input type="file" />
+        <!-- the input tag is used to input data on your webpage
+        the "type" attribute help you decide the type of input data you can use
+        the "value" attribute gives a defalut written input-->
+        <textarea rows="10" cols="30">
+            Enter a paragraph
+        </textarea>
+        <!-- the textarea tag is similar to input tag but is bigger
+        it is also resizable
+        the "rows" attribute decides number of rows
+        and the "cols" attribute decides number of columns
+        the text written inside the tag is default text present-->
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input name="btn" type="radio" />
+        <input name="btn" type="radio" />
+        <!-- you can also use checkbox and radio button but the difference is
+        for checkbox you can select as many checkbox you want
+        however for if there exist more than one radio and they have same value for "name" attribute
+            you can select only one of them-->
+        <input type="submit" />
+        <form>
+            <input type="range" />
+        </form>
+        <!-- the form tag are used as wrapper tags for the input tags-->
+
+        <!-- the input tags as such in hntl are of no use
+        for a proper use of these tags the knowledge and application
+        of javascript is necessary-->
+
+
+
+
+        <iframe src="https://giraffeacademy.com/" frameborder="20" width="1000" height="800">Sorry</iframe>
+        <iframe src="https;//www.amazon.com/">Sorry</iframe>
+        <!-- the iframe tag is used to insert objects from internet such as websites
+        the text written between and open and end tags is displayed incase the object cant be accesessed
+        the "frameborder" attribute is for the border of the object
+        but often you dont get access to websites because their owners set it so as
+        it can be used for malicious intent-->
+
+
+        
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
